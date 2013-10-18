@@ -2,6 +2,16 @@ body {
  background-color: maroon;
 }
 
+
+a:link{
+    text-decoration:none;
+   
+    }
+a:visited{
+    color:black;
+    }
+
+
 .menuButton {
  /* Disable text-select since button */
  user-select: none;
@@ -13,7 +23,14 @@ body {
  background-color: white;
  border: 1px solid black;
  border-radius: 5px;
-
+ 
+ font-family:Veradana; 
+ font-weight:bold;
+ border:black;
+ float:fixed;
+ font-size:25px;
+ 
+ display: block;
  padding: 20px;
  margin: 0 auto;
  margin-top: 15px;
@@ -26,7 +43,7 @@ body {
 
 .menuButton:hover {
  cursor: pointer;
- background-color: yellow;
+ background-color: red;
 }
 
 .menuIcon {
